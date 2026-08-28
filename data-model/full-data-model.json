@@ -1,0 +1,554 @@
+{
+  "inMemoryTables": [
+    {
+      "data": [
+        {
+          "contoso_taskassignmentid": "0a7a63fa-bc50-46e4-a3ac-3800597590aa",
+          "contoso_title": "Prepare quarterly sales report",
+          "contoso_description": "Compile regional sales results and highlight significant variances.",
+          "contoso_duedate": "2026-04-10T00:00:00.000Z",
+          "contoso_status": 330650001,
+          "contoso_assigneduserobjectid": "7b8d93a1-8b25-4f38-9ab1-0dc4c49317a2",
+          "contoso_assigneduserdisplayname": "Olivia Bennett",
+          "contoso_assigneduseremailorupn": "olivia.bennett@example.com",
+          "contoso_assigneduserjobtitle": "Sales Operations Analyst"
+        },
+        {
+          "contoso_taskassignmentid": "a8a435ed-7a05-4e83-b0d3-6fed533dcb3c",
+          "contoso_title": "Review supplier agreement",
+          "contoso_description": "Review renewal terms and provide comments to the procurement team.",
+          "contoso_duedate": "2026-04-14T00:00:00.000Z",
+          "contoso_status": 330650000,
+          "contoso_assigneduserobjectid": "2c41e6d8-31bc-48b9-a761-9af7785c342e",
+          "contoso_assigneduserdisplayname": "Marcus Chen",
+          "contoso_assigneduseremailorupn": "marcus.chen@example.com",
+          "contoso_assigneduserjobtitle": "Procurement Manager"
+        },
+        {
+          "contoso_taskassignmentid": "09d974d7-d2f0-4805-916a-4a35a775fd9a",
+          "contoso_title": "Update onboarding checklist",
+          "contoso_description": "Revise the checklist to reflect the new identity verification process.",
+          "contoso_duedate": "2026-04-08T00:00:00.000Z",
+          "contoso_status": 330650002,
+          "contoso_assigneduserobjectid": "a914f5c2-723e-45c8-b814-bf879f3de261",
+          "contoso_assigneduserdisplayname": "Sophia Martinez",
+          "contoso_assigneduseremailorupn": "sophia.martinez@example.com",
+          "contoso_assigneduserjobtitle": "Human Resources Specialist"
+        },
+        {
+          "contoso_taskassignmentid": "4c631ed2-4cca-4f7c-9e4a-d09224ad5f64",
+          "contoso_title": "Validate production dashboard",
+          "contoso_description": "Confirm that operational metrics match the source system totals.",
+          "contoso_duedate": "2026-04-18T00:00:00.000Z",
+          "contoso_status": 330650001,
+          "contoso_assigneduserobjectid": "5e73b962-f364-4a80-9b55-d6be15923c47",
+          "contoso_assigneduserdisplayname": "Ethan Williams",
+          "contoso_assigneduseremailorupn": "ethan.williams@example.com",
+          "contoso_assigneduserjobtitle": "Business Intelligence Developer"
+        },
+        {
+          "contoso_taskassignmentid": "9091e366-7ef4-4296-9154-aa7e5fc62b6d",
+          "contoso_title": "Schedule customer feedback sessions",
+          "contoso_description": "",
+          "contoso_duedate": "2026-04-22T00:00:00.000Z",
+          "contoso_status": 330650000,
+          "contoso_assigneduserobjectid": "d1864ea7-1eac-4382-b53c-b87576f8d920",
+          "contoso_assigneduserdisplayname": "Amina Hassan",
+          "contoso_assigneduseremailorupn": "amina.hassan@example.com",
+          "contoso_assigneduserjobtitle": ""
+        }
+      ],
+      "entity": {
+        "MetadataId": "7be2f877-c112-4020-b4ae-d77b51482e53",
+        "Attributes": [
+          {
+            "MetadataId": "f3e88325-7cc2-42c4-a7fe-ee558e1f9c00",
+            "IsPrimaryName": true,
+            "IsSecured": false,
+            "IsValidForUpdate": true,
+            "IsValidForRead": true,
+            "SchemaName": "contoso_Title",
+            "SourceType": 0,
+            "ExternalName": null,
+            "Description": {
+              "LocalizedLabels": [
+                {
+                  "Label": "",
+                  "LanguageCode": 1033
+                }
+              ]
+            },
+            "DisplayName": {
+              "LocalizedLabels": [
+                {
+                  "Label": "Title",
+                  "LanguageCode": 1033
+                }
+              ]
+            },
+            "RequiredLevel": {
+              "Value": "ApplicationRequired"
+            },
+            "AttributeType": "String",
+            "AttributeTypeName": {
+              "Value": "StringType"
+            },
+            "ImeMode": "Auto",
+            "MaxLength": 850,
+            "FormatName": {
+              "Value": "Text"
+            },
+            "Format": "Text",
+            "AutoNumberFormat": null,
+            "@odata.type": "Microsoft.Dynamics.CRM.StringAttributeMetadata"
+          },
+          {
+            "MetadataId": "fd44c1b3-9564-4b59-9077-a38c21015b21",
+            "IsPrimaryName": false,
+            "IsSecured": false,
+            "IsValidForUpdate": true,
+            "IsValidForRead": true,
+            "SchemaName": "contoso_Description",
+            "SourceType": 0,
+            "ExternalName": null,
+            "Description": {
+              "LocalizedLabels": [
+                {
+                  "Label": "",
+                  "LanguageCode": 1033
+                }
+              ]
+            },
+            "DisplayName": {
+              "LocalizedLabels": [
+                {
+                  "Label": "Description",
+                  "LanguageCode": 1033
+                }
+              ]
+            },
+            "RequiredLevel": {
+              "Value": "None"
+            },
+            "AttributeType": "Memo",
+            "AttributeTypeName": {
+              "Value": "MemoType"
+            },
+            "ImeMode": "Auto",
+            "MaxLength": 2000,
+            "FormatName": {
+              "Value": "Text"
+            },
+            "Format": "Text",
+            "AutoNumberFormat": null,
+            "@odata.type": "Microsoft.Dynamics.CRM.MemoAttributeMetadata"
+          },
+          {
+            "MetadataId": "492d5ab4-503e-4481-89e6-3a0770f0a852",
+            "IsPrimaryName": false,
+            "IsSecured": false,
+            "IsValidForUpdate": true,
+            "IsValidForRead": true,
+            "SchemaName": "contoso_DueDate",
+            "SourceType": 0,
+            "ExternalName": null,
+            "Description": {
+              "LocalizedLabels": [
+                {
+                  "Label": "",
+                  "LanguageCode": 1033
+                }
+              ]
+            },
+            "DisplayName": {
+              "LocalizedLabels": [
+                {
+                  "Label": "Due Date",
+                  "LanguageCode": 1033
+                }
+              ]
+            },
+            "RequiredLevel": {
+              "Value": "ApplicationRequired"
+            },
+            "AttributeType": "DateTime",
+            "AttributeTypeName": {
+              "Value": "DateTimeType"
+            },
+            "ImeMode": "Auto",
+            "Format": "DateOnly",
+            "DateTimeBehavior": {
+              "Value": "UserLocal"
+            },
+            "CanChangeDateTimeBehavior": {
+              "Value": true,
+              "CanBeChanged": true,
+              "ManagedPropertyLogicalName": "canmodifybehavior"
+            },
+            "@odata.type": "Microsoft.Dynamics.CRM.DateTimeAttributeMetadata"
+          },
+          {
+            "MetadataId": "cf1757f8-1a2c-44d3-adfd-18385cc65ca5",
+            "IsPrimaryName": false,
+            "IsSecured": false,
+            "IsValidForUpdate": true,
+            "IsValidForRead": true,
+            "SchemaName": "contoso_Status",
+            "SourceType": 0,
+            "ExternalName": null,
+            "Description": {
+              "LocalizedLabels": [
+                {
+                  "Label": "",
+                  "LanguageCode": 1033
+                }
+              ]
+            },
+            "DisplayName": {
+              "LocalizedLabels": [
+                {
+                  "Label": "Status",
+                  "LanguageCode": 1033
+                }
+              ]
+            },
+            "RequiredLevel": {
+              "Value": "ApplicationRequired"
+            },
+            "AttributeType": "Picklist",
+            "AttributeTypeName": {
+              "Value": "PicklistType"
+            },
+            "DefaultFormValue": -1,
+            "OptionSet": {
+              "IsCustomOptionSet": true,
+              "IsGlobal": false,
+              "IsCustomizable": {
+                "Value": true,
+                "CanBeChanged": false,
+                "ManagedPropertyLogicalName": "iscustomizable"
+              },
+              "ExternalTypeName": "",
+              "OptionSetType": "Picklist",
+              "Description": {
+                "LocalizedLabels": [
+                  {
+                    "Label": "",
+                    "LanguageCode": 1033
+                  }
+                ]
+              },
+              "DisplayName": {
+                "LocalizedLabels": [
+                  {
+                    "Label": "Status",
+                    "LanguageCode": 1033
+                  }
+                ]
+              },
+              "Options": [
+                {
+                  "Value": 330650000,
+                  "ExternalValue": "",
+                  "IsManaged": false,
+                  "Label": {
+                    "LocalizedLabels": [
+                      {
+                        "Label": "To do",
+                        "LanguageCode": 1033
+                      }
+                    ]
+                  },
+                  "Description": {
+                    "LocalizedLabels": [
+                      {
+                        "Label": "",
+                        "LanguageCode": 1033
+                      }
+                    ]
+                  }
+                },
+                {
+                  "Value": 330650001,
+                  "ExternalValue": "",
+                  "IsManaged": false,
+                  "Label": {
+                    "LocalizedLabels": [
+                      {
+                        "Label": "In progress",
+                        "LanguageCode": 1033
+                      }
+                    ]
+                  },
+                  "Description": {
+                    "LocalizedLabels": [
+                      {
+                        "Label": "",
+                        "LanguageCode": 1033
+                      }
+                    ]
+                  }
+                },
+                {
+                  "Value": 330650002,
+                  "ExternalValue": "",
+                  "IsManaged": false,
+                  "Label": {
+                    "LocalizedLabels": [
+                      {
+                        "Label": "Completed",
+                        "LanguageCode": 1033
+                      }
+                    ]
+                  },
+                  "Description": {
+                    "LocalizedLabels": [
+                      {
+                        "Label": "",
+                        "LanguageCode": 1033
+                      }
+                    ]
+                  }
+                }
+              ]
+            },
+            "@odata.type": "Microsoft.Dynamics.CRM.PicklistAttributeMetadata"
+          },
+          {
+            "MetadataId": "22798350-3958-4d90-bd3d-1c4816a2138b",
+            "IsPrimaryName": false,
+            "IsSecured": false,
+            "IsValidForUpdate": true,
+            "IsValidForRead": true,
+            "SchemaName": "contoso_AssignedUserObjectID",
+            "SourceType": 0,
+            "ExternalName": null,
+            "Description": {
+              "LocalizedLabels": [
+                {
+                  "Label": "",
+                  "LanguageCode": 1033
+                }
+              ]
+            },
+            "DisplayName": {
+              "LocalizedLabels": [
+                {
+                  "Label": "Assigned User Object ID",
+                  "LanguageCode": 1033
+                }
+              ]
+            },
+            "RequiredLevel": {
+              "Value": "ApplicationRequired"
+            },
+            "AttributeType": "String",
+            "AttributeTypeName": {
+              "Value": "StringType"
+            },
+            "ImeMode": "Auto",
+            "MaxLength": 100,
+            "FormatName": {
+              "Value": "Text"
+            },
+            "Format": "Text",
+            "AutoNumberFormat": null,
+            "@odata.type": "Microsoft.Dynamics.CRM.StringAttributeMetadata"
+          },
+          {
+            "MetadataId": "d07f8146-0b74-450f-8093-ad5fd50e189e",
+            "IsPrimaryName": false,
+            "IsSecured": false,
+            "IsValidForUpdate": true,
+            "IsValidForRead": true,
+            "SchemaName": "contoso_AssignedUserDisplayName",
+            "SourceType": 0,
+            "ExternalName": null,
+            "Description": {
+              "LocalizedLabels": [
+                {
+                  "Label": "",
+                  "LanguageCode": 1033
+                }
+              ]
+            },
+            "DisplayName": {
+              "LocalizedLabels": [
+                {
+                  "Label": "Assigned User Display Name",
+                  "LanguageCode": 1033
+                }
+              ]
+            },
+            "RequiredLevel": {
+              "Value": "ApplicationRequired"
+            },
+            "AttributeType": "String",
+            "AttributeTypeName": {
+              "Value": "StringType"
+            },
+            "ImeMode": "Auto",
+            "MaxLength": 100,
+            "FormatName": {
+              "Value": "Text"
+            },
+            "Format": "Text",
+            "AutoNumberFormat": null,
+            "@odata.type": "Microsoft.Dynamics.CRM.StringAttributeMetadata"
+          },
+          {
+            "MetadataId": "2646af0e-0555-448b-acb2-8592d7258b92",
+            "IsPrimaryName": false,
+            "IsSecured": false,
+            "IsValidForUpdate": true,
+            "IsValidForRead": true,
+            "SchemaName": "contoso_AssignedUserEmailorUPN",
+            "SourceType": 0,
+            "ExternalName": null,
+            "Description": {
+              "LocalizedLabels": [
+                {
+                  "Label": "",
+                  "LanguageCode": 1033
+                }
+              ]
+            },
+            "DisplayName": {
+              "LocalizedLabels": [
+                {
+                  "Label": "Assigned User Email or UPN",
+                  "LanguageCode": 1033
+                }
+              ]
+            },
+            "RequiredLevel": {
+              "Value": "ApplicationRequired"
+            },
+            "AttributeType": "String",
+            "AttributeTypeName": {
+              "Value": "StringType"
+            },
+            "ImeMode": "Auto",
+            "MaxLength": 100,
+            "FormatName": {
+              "Value": "Email"
+            },
+            "Format": "Email",
+            "AutoNumberFormat": null,
+            "@odata.type": "Microsoft.Dynamics.CRM.StringAttributeMetadata"
+          },
+          {
+            "MetadataId": "52fe42d2-fb2d-4869-bf79-a3567da486b9",
+            "IsPrimaryName": false,
+            "IsSecured": false,
+            "IsValidForUpdate": true,
+            "IsValidForRead": true,
+            "SchemaName": "contoso_AssignedUserJobTitle",
+            "SourceType": 0,
+            "ExternalName": null,
+            "Description": {
+              "LocalizedLabels": [
+                {
+                  "Label": "",
+                  "LanguageCode": 1033
+                }
+              ]
+            },
+            "DisplayName": {
+              "LocalizedLabels": [
+                {
+                  "Label": "Assigned User Job Title",
+                  "LanguageCode": 1033
+                }
+              ]
+            },
+            "RequiredLevel": {
+              "Value": "None"
+            },
+            "AttributeType": "String",
+            "AttributeTypeName": {
+              "Value": "StringType"
+            },
+            "ImeMode": "Auto",
+            "MaxLength": 100,
+            "FormatName": {
+              "Value": "Text"
+            },
+            "Format": "Text",
+            "AutoNumberFormat": null,
+            "@odata.type": "Microsoft.Dynamics.CRM.StringAttributeMetadata"
+          }
+        ],
+        "OwnershipType": "UserOwned",
+        "PrimaryNameAttribute": "contoso_title",
+        "SchemaName": "contoso_TaskAssignment",
+        "HasNotes": false,
+        "HasActivities": false,
+        "IsAvailableOffline": false,
+        "IsActivity": false,
+        "ActivityTypeMask": 0,
+        "IsSolutionAware": false,
+        "Description": {
+          "LocalizedLabels": [
+            {
+              "Label": "Stores tasks assigned to Microsoft Entra users selected through Office 365 Users.",
+              "LanguageCode": 1033
+            }
+          ]
+        },
+        "DisplayCollectionName": {
+          "LocalizedLabels": [
+            {
+              "Label": "Task Assignments",
+              "LanguageCode": 1033
+            }
+          ]
+        },
+        "DisplayName": {
+          "LocalizedLabels": [
+            {
+              "Label": "Task Assignment",
+              "LanguageCode": 1033
+            }
+          ]
+        },
+        "IsAuditEnabled": {
+          "Value": false
+        },
+        "IsValidForQueue": {
+          "Value": false
+        },
+        "IsConnectionsEnabled": {
+          "Value": false
+        },
+        "IsDuplicateDetectionEnabled": {
+          "Value": true
+        },
+        "IsDocumentManagementEnabled": false,
+        "EntityColor": null,
+        "IsRetentionEnabled": false,
+        "SyncToExternalSearchIndex": false,
+        "AutoRouteToOwnerQueue": false,
+        "IsSLAEnabled": false,
+        "IsQuickCreateEnabled": false,
+        "IsActivityParty": false,
+        "HasFeedback": false,
+        "AutoCreateAccessTeams": false,
+        "ChangeTrackingEnabled": false,
+        "IsKnowledgeManagementEnabled": false,
+        "EntityHelpUrlEnabled": false,
+        "EntityHelpUrl": null,
+        "IsMailMergeEnabled": {
+          "Value": true
+        },
+        "IsOfflineInMobileClient": {
+          "Value": false
+        },
+        "ManyToOneRelationships": [],
+        "@odata.type": "Microsoft.Dynamics.CRM.EntityMetadata"
+      },
+      "dataPayloadFormat": "Dataverse",
+      "tableSourceType": "DataModelProposal"
+    }
+  ]
+}
